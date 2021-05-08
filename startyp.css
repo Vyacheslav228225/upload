@@ -1,0 +1,166 @@
+.menu{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    padding: 20px 40px;
+    font-weight: lighter;
+}
+.menu a:hover{
+    background-color: silver;
+}
+.header{
+    width: 1200px;
+    padding: 40px 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 200px 0;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 50px;
+    background-attachment: fixed;
+}
+.header a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+.header a:hover{
+    background-color: silver;
+}
+#about img{
+    width: 400px;
+    float: right;
+    margin: 30px;
+    margin-top: 0;
+}
+#about{
+    max-width: 1200px;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+.person{
+    display: inline-block;
+    width: 20%;
+    height: 450px;
+    vertical-align: top;
+    margin: 5px 5px;
+    border: 2px solid gray;
+    box-shadow: 10px 10px 20px gray;
+    padding: 20px;
+    text-align: left;
+}
+.person img{
+    width: 100%;
+}
+.team{
+    text-align: center;
+    margin-top: 100px;
+    min-width: 250px;
+}
+.person h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+.person a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    background-color: deepskyblue;
+    text-align: center;
+    padding: 14px 0;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.tarif li{
+    list-style-type: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+    padding: 16px 0;
+}
+.tarif .tarif_name{
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    padding: 30px 0;
+}
+.tarif{
+    display:inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: middle;
+    padding: 0;
+    background-color: white;
+}
+.tarif li:last-child{
+    background-color: darkgrey;
+    padding: 24px;
+}
+.tarif a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+}
+.tarif a:hover{
+    background-color: coral;
+    color: black;
+    
+}
+.money{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 50px 0;
+}
+.abc{
+    font-weight: bold;
+}
+.tarif .tarif_name:hover{
+    background-color: skyblue;
+    padding: 48px 0;
+}
+.contact{
+    text-align: center;
+    background-color: floralwhite;
+    padding: 40px 0;
+}
+.info{
+    text-align:left;
+    padding-left: 30px;
+}
+.contact input{
+    padding: 8px;
+    width: 90%;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+button:hover{
+    color: brown;
+    background-color: burlywood;
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    color: aliceblue;
+}
